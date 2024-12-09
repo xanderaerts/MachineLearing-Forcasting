@@ -1,0 +1,44 @@
+voorbeeld les
+winkels
+time series data -> string text al naar datetime zetten -> pd.to_date_time()
+0.0 bij sales? -> winkel dicht?
+
+
+groupby per dag vooor datum en type
+plotje maken 
+
+
+categoriën selecteren die we gaan gebruiken
+train/test split maren op basis van intresante periode 
+
+Prophet -> verwacht 2 kolommen -> ds & y 
+
+je kan multiplucatief doen -> in % zien -> seasonality mode
+
+
+1 & 2 -> trainings data zoeken en selecteren en in juiste formaat zetten -> model trainen en fitten 
+nieuw data frame maken -> aangeven hoerver in toekomst ge je wilt gaan, nieuw future data frame maken
+future -> bevat heel data waarop gefit is en + toekomst (aantal dagen dat je wil)
+return var van model bevat:
+    ds -> timestamp
+    yhat= y voorspelling
+    yhat_lower en yhat_upper = uncertainties
+
+
+graph maken met alle data op -> periode die voorspelt is/ test data / voorspelling/ confidenct
+
+
+holly days toevoegen -> enkel navida's
+in hollyday dataframe
+
+forecast.loc[forecast['yhat] < 0,yhat] = 0
+
+je kan ook RMSE berekenen etc
+
+standaart optie om gelijk wat toe te voegen 
+m.add_regressor('temperature') -> asl ge temp mee geeft da ge ook de temp moet hebben voor de toekomst, je hebt deze nodig, (je kan enkel de voorspelling gebruiken voor morgen)
+je kan hier alles mee geven maar moet dit ook megeven voor de voorspelling te maken, logish
+
+
+
+

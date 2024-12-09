@@ -1,0 +1,37 @@
+model bouwen 
+extra data zoeken?
+weer? zon? 
+hollidays? vakantie?
+zon! heel belangrijk! 
+
+corona effect?? 2020-2021??
+covid aan/af? corona er uit? 
+plots veel bekijken
+volledig vrij welk stuk van data
+
+load is het verbruik? 
+verbruik voorspellen 
+1 week voorspellen zo goed mogelijk 
+forecast zitten er in, hopelijk beter? 
+
+
+in hun data set zit forecast voor volgende week
+
+laatste punt waar load niet null is
+
+RMSE berekenen
+
+
+missing values fixen!!!! of toch ni et
+
+dataset die zonne energie gaat voorspellen
+zonepanelen
+
+
+week terug gaan, daarop rmse berekenen 
+hun rmse ook is berekenen op die week
+
+
+voorspelling op basis van 1 maand? 
+1 week? 
+
